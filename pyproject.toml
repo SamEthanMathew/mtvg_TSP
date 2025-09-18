@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtvg-tsp"
+version = "0.0.1"
+requires-python = ">=3.9"
+dependencies = [
+  "pytest>=8.0.0",
+  "shapely>=2.0.0",
+  "matplotlib>=3.8"
+
+]
+
+[tool.setuptools]
+packages = ["mtvg"]
