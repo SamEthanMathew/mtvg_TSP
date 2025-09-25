@@ -34,23 +34,9 @@ uv pip freeze > requirements.lock
 ```
 
 
-## Milestones
+## Milestones Acheived
 
-- **Week 1 & 2:** Implement baseline A* and MT-TSP algorithm from Anoop’s prior work. **[DONE]**
-- **Week 3:** Implement bounded-suboptimal search algorithms for Dubins TSP.
-- **Week 4:** Run initial benchmark tests, verify correctness.
-- **Week 5+:** Extend with new variants (moving-target Polyanya, metaheuristics, etc.).
+- Implement baseline A* and MT-TSP algorithm from Anoop’s prior work.
+- Implement bounded-suboptimal search algorithms for Dubins TSP.
+- Run initial benchmark tests, verify correctness.
 
-
-
-Repo Structure
-
-```
-dubins-tsp/
-│── src/                 # Core algorithm implementations
-│── benchmarks/          # Benchmark instances from WAFR paper
-│── results/             # Logs, plots, and experiment results
-│── requirements.txt     # Dependencies
-│── README.md            # Project overview
-
-```
